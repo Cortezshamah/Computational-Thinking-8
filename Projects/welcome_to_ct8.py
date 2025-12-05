@@ -27,4 +27,6 @@ print("\n\n")
                                                                                           
                                   
 print("Now it's your turn:")
-print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")                                  
+print("Hi I am Cortez and I have a black pug")                                  
+print("I have a white pug")
+print("and I have a dutch spaniel brown and white")

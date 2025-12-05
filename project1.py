@@ -1,0 +1,5 @@
+print("Hello I am cortez")
+name = input("what is your name?")
+print(f"so,{name}")
+class = input("What is your favorite class")
+print(f"so your favorite class is{class}")
