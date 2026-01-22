@@ -5,11 +5,11 @@ blue_points = -1
 input("Welcome to the favorite primary color quiz")
 print("----------------------------------------------------------------------")
 answer1 = input("Do you like A blueberrys, B strawberrys, or C bananas more?")
-if answer1 == "A" or "a" or " a" or " A":
+if answer1 == "A" or " A":
     blue_points += 1
-elif answer1 == "B" or "b" or " b" or " B":
+elif answer1 == "B" or " B":
     red_points += 1
-elif answer1 == "C" or "c" or " c" or " C":
+elif answer1 == "C" or " C":
     yellow_points += 1
 print("----------------------------------------------------------------------")
 print("Make sure to answer capitalized without spaces")
@@ -49,6 +49,7 @@ if answer6 == "A":
     red_points += 1
 elif answer6 == "B":
     blue_points += 1
+    yellow_points += 1
 elif answer6 == "C":
     yellow_points += 1
 print("----------------------------------------------------------------------")
