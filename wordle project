@@ -1,25 +1,24 @@
 import random
 
 # Pick a word at random
-word_list = ["loopy","heart","audio","laugh","trial","goody","botch","balls","point"]
+word_list = ["loopy","heart","audio","laugh","trial","goody","botch","balls","point","black","whale","fried","steak","batch","hatch","watch","match","catch","latch","patch","plaid","xylyl","benag","egypt","chile","china","ghana","haiti","india","italy","japan","kenya","libya","malta","nepal","samoa","spain","syria","yemen","parer","foyer","mummy","coyly","tacit","billy","tilly","footy","cater","gomez","lorax","kanye","music","timer","image","jokes","eaiou","ocean","atcha","smile","frogs","fives","photo","loved","would","bresh","write","wrong","wills","ortez","maddy","macey","avery","jacob","pouch","other","trust","baker","parks","alexi","mondy","tusdy","wesdy","turdy","fridy"]
 hidden_word = random.choice(word_list)
 
 print("WORDLE:")
-
 # Repeat for 6 guesses
 for i in range(6):
     # Guess a word
     guess_word = input()
     output = ""
 
-# First letter (in python, counting starts at 0 not 1)
+    # First letter (in python, counting starts at 0 not 1)
     if guess_word[0] == hidden_word[0]:
         output += "🟩"
     elif guess_word[0] in hidden_word:
         output += "🟨"
     else:
         output += "⬛"
-# 2nd letter test
+    # 2nd letter test
     if guess_word[1] == hidden_word[1]:
         output += "🟩"
     elif guess_word[1] in hidden_word:
@@ -27,29 +26,30 @@ for i in range(6):
     else:
         output += "⬛"
     # Result
-    print(output)
-# 3rd letter test
+ 
+    # 3rd letter test
     if guess_word[2] == hidden_word[2]:
         output += "🟩"
     elif guess_word[2] in hidden_word:
         output += "🟨"
     else:
         output += "⬛"
-# 4th letter test
+    
+    # 4th letter test
     if guess_word[3] == hidden_word[3]:
         output += "🟩"
     elif guess_word[3] in hidden_word:
         output += "🟨"
     else:
         output += "⬛"
-# 5th letter test
+
     if guess_word[4] == hidden_word[4]:
         output += "🟩"
     elif guess_word[4] in hidden_word:
         output += "🟨"
     else:
         output += "⬛"
-        
+    print(output)
     if output == "🟩🟩🟩🟩🟩":
         print("You win")
         break
