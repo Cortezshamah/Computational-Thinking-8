@@ -17,7 +17,7 @@ message_sprite.hideturtle()
 message_sprite.write("Eggs and Raspberrys, try to make a creme brulee with jam",font = ("Arial", 17, "normal"))
 message_sprite = create_sprite("balloon", -325,-282)
 message_sprite.hideturtle()
-message_sprite.write("500 e = 1 c , 250 r = 1 j and then 4 j + 2 c + space = win",font = ("Arial", 17, "normal"))
+message_sprite.write("250 e = 1 c , 125 r = 1 j and then 4 j + 2 c + space = win",font = ("Arial", 17, "normal"))
 
 # Section 2 - controls
 # TODO - define an action. ex: def my_control()
